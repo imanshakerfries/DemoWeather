@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Weather> alWeather = new ArrayList<Weather>();
         aaWeather = new WeatherAdapter(this,
-                android.R.layout.simple_expandable_list_item_1, alWeather);
+                R.layout.row, alWeather);
 
         lvWeather.setAdapter(aaWeather);
 
